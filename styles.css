@@ -146,3 +146,15 @@ footer {
     text-align: center;
     margin-bottom: 20px;
 }
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-members .member {
+    text-align: center;
+    margin-bottom: 30px;
+}
