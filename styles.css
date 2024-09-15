@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background: #C29B0C;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #a37b08;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+#home, #team, #contact, #about {
+    padding: 2rem 0;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #C29B0C;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #a37b08;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    flex: 1 1 45%;
+    margin: 1rem;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+/* General button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+}
+
+/* Blue color for LinkedIn buttons */
+.linkedin-button {
+    background-color: #007BFF; /* Blue */
+    color: white;
+}
+
+.linkedin-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Gold color for language switch buttons */
+.lang-button {
+    background-color: #C29B0C; /* Gold */
+    color: white;
+}
+
+.lang-button:hover {
+    background-color: #99780a; /* Darker gold on hover */
+}
+
+/* Centering team member section and buttons */
+.team-members .member {
+    text-align: center;
+    margin-bottom: 20px;
+}
